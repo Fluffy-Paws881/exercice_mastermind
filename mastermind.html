@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>mastermind</title>
+	<link rel="stylesheet" type="text/css" href="CSS/mastermind.css">
+	<script type="text/javascript" src="JS/mastermind.js"></script>
+</head>
+<body onload="generePlateau();randColor()">
+	<h1>Mastermind</h1>
+
+	<input type="button" id="refresh" onclick='window.location.reload(false)' value="Restart"/>
+
+	<div id="container">
+	</div>
+
+	<button id="verif" onclick="verification()">vérifier</button>
+
+</body>
+</html>
